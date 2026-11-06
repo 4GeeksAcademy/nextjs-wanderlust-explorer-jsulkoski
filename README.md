@@ -7,12 +7,19 @@ The explorer's editorial imagery and polished content sections draw inspiration 
 
 ### Cartier
 
-![Cartier homepage screenshot](nextjs-wanderlust-explorer/public/design-references/wanderlust-cartier-reference.png)
+![Cartier homepage screenshot](public/design-references/wanderlust-cartier-reference.png)
 
 [Visit Cartier](https://www.cartier.com/en-us/)
 
 ### Birchbox
 
-![Birchbox homepage screenshot](nextjs-wanderlust-explorer/public/design-references/wanderlust-birchbox-reference.png)
+![Birchbox homepage screenshot](public/design-references/wanderlust-birchbox-reference.png)
 
 [Visit Birchbox](https://www.birchbox.com/)
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
