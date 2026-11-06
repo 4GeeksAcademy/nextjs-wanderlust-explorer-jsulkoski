@@ -1,5 +1,25 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Design References
+
+The explorer uses a practical discovery model with an editorial travel-journal feel:
+
+- [Airbnb Experiences](https://www.airbnb.com/experiences) informed the approachable browse-and-discover flow, image-led categories, and people-first activity framing.
+- [GetYourGuide](https://www.getyourguide.com/) informed the compact filter hierarchy and scan-friendly activity results.
+- [Atlas Obscura Places](https://www.atlasobscura.com/places) informed the curiosity-led destination storytelling and emphasis on local discoveries.
+
+The supplied [Cartier](https://www.cartier.com/en-us/) and [Birchbox](https://www.birchbox.com/) screenshots are additional visual references: Cartier's restrained navigation and cinematic campaign imagery, paired with Birchbox's bright color blocks and approachable content sections. Those cues shape the visual tone; the explorer keeps its search and filtering controls direct and easy to scan.
+
+## Getting Started
+
+Run the development server from this directory:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to explore the app.
+
 ## Getting Started
 
 First, run the development server:
