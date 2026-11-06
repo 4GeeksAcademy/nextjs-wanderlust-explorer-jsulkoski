@@ -539,9 +539,10 @@ img {
 
 .explorer-toolbar {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 16px;
-  padding: 22px;
+  grid-template-columns: minmax(240px, 1.1fr) minmax(0, 2fr);
+  align-items: end;
+  gap: 14px;
+  padding: 19px;
   border: 1px solid var(--line);
   background: var(--white);
 }
@@ -550,11 +551,6 @@ img {
 .filter-control {
   display: grid;
   gap: 7px;
-}
-
-.search-field .control-label {
-  color: var(--forest);
-  font-size: 10px;
 }
 
 .control-label {
@@ -566,23 +562,17 @@ img {
 
 .search-input-wrap {
   display: flex;
-  min-height: 58px;
+  min-height: 44px;
   align-items: center;
-  gap: 12px;
-  padding: 0 16px;
-  border: 1px solid #aebcb1;
+  gap: 10px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
   background: var(--paper);
-  transition: border-color 150ms ease, box-shadow 150ms ease;
-}
-
-.search-input-wrap:focus-within {
-  border-color: var(--forest);
-  box-shadow: 0 0 0 3px rgba(23, 75, 67, 0.12);
 }
 
 .search-symbol {
   color: var(--forest);
-  font-size: 23px;
+  font-size: 19px;
   line-height: 1;
 }
 
@@ -592,7 +582,7 @@ img {
   border: 0;
   outline: 0;
   background: transparent;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .search-input:focus-visible {
